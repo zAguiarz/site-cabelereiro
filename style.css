@@ -1,0 +1,73 @@
+header {
+    background-color: #8A624A;
+    border-bottom: inset 5px rgb(253, 226, 138);
+}
+
+.caixa {
+    position: relative;
+    width:940px;
+    margin:0 auto; 
+}
+
+nav {
+    position:absolute;
+    top:110px;
+    right:0;   
+}
+
+
+nav li {
+    display: inline;
+    margin: 0 0 0 20px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color:#db9e79;
+    text-decoration: underline;
+}
+
+.titulocentralizado {
+    text-align: center;
+    font-size: 50px;
+}
+
+p {
+    text-align: center;
+}
+
+em strong {
+    color: red;
+}
+
+.principal {
+    display:inline-block;
+    vertical-align: top;
+    width: 40%;
+    padding:30px;
+}
+
+#banner {
+    width: 50%;
+}
+
+
+footer {
+    text-align: center;
+    background-color: #8A624A;
+    border-top: 4px inset rgb(253, 226, 138);
+    padding: 20px 0;
+}
+
+.copyright {
+    color: white;
+    font-size: 15px;
+    margin: top 20px
+}
